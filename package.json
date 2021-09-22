@@ -1,0 +1,46 @@
+{
+  "name": "@delicious-simplicity/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/the-daily-wire/eslint-config-ds.git",
+  "author": "devin@delicious-simplicity.com",
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "eslint",
+    "lint",
+    "prettier"
+  ],
+  "scripts": {
+    "build": "yarn lint:fix",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.3.1"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^11.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/lodash": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "lodash": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  }
+}
