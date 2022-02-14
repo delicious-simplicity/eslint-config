@@ -18,10 +18,13 @@ module.exports = {
           {
             pattern: 'react',
             group: 'builtin',
-            position: 'before',
+          },
+          {
+            pattern: 'react-dom',
+            group: 'builtin',
           },
         ],
-        pathGroupsExcludedImportTypes: ['react'],
+        pathGroupsExcludedImportTypes: ['react', 'react-dom'],
       },
     ],
   },
