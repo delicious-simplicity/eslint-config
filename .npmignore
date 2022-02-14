@@ -1,5 +1,7 @@
-.github
-.vscode
-test/
 .eslintrc
+.github
 .prettierrc
+.vscode
+CONTRIBUTING.md
+
+test/
