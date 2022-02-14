@@ -1,6 +1,6 @@
 {
   "name": "@delicious-simplicity/eslint-config",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": "https://github.com/delicious-simplicity/eslint-config.git",
   "author": "Delicious Simplicity info@delicious-simplicity.com",
@@ -28,10 +28,10 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.7"
   },
   "devDependencies": {
     "@types/jest": "27.4.0",

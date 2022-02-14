@@ -1,7 +1,10 @@
+test/
+
 .eslintrc
 .github
 .prettierrc
 .vscode
 CONTRIBUTING.md
-
-test/
+package-lock.json
+tailwind.config.js
+yarn.lock

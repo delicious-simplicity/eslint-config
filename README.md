@@ -20,11 +20,7 @@ Extensions - `.vscode/extensions.json`
 
 ```json
 {
-  "recommendations": [
-    "aaron-bond.better-comments",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
-  ]
+  "recommendations": ["aaron-bond.better-comments", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
 }
 ```
 
@@ -40,18 +36,17 @@ Settings - `.vscode/settings.json`
   "eslint.alwaysShowStatus": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
+}
+```
+
+Prettier - `.prettierrc`
+
+```json
+{
+  "jsxSingleQuote": true,
+  "printWidth": 120,
+  "singleQuote": true,
+  "trailingComma": "all"
 }
 ```
