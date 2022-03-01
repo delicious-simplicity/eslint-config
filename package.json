@@ -1,6 +1,6 @@
 {
   "name": "@delicious-simplicity/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/delicious-simplicity/eslint-config.git",
   "author": "Delicious Simplicity info@delicious-simplicity.com",
