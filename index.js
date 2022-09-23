@@ -11,5 +11,6 @@ module.exports = {
     './rules/react.js',
     './rules/react-hooks.js',
     './rules/typescript-eslint.js',
+    './rules/tailwindcss.js',
   ],
 };

@@ -3,5 +3,6 @@
 .prettierrc
 .vscode
 CONTRIBUTING.md
+tailwind.config.js
 
 test/
